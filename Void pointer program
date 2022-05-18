@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() 
+{
+    void *p;
+    int a=5;
+    float b=6.66;
+    char c='k';
+    p=&a;
+    printf("%d",*(int*)p);    //typecasting
+    return 0;
+}
